@@ -38,7 +38,7 @@
          foreach (["weapons", "tools", "armor", "blocks", "specials", "masks"] as $category) {
              $this->$category = $this->getConfig()->getNested("items." . $category);
          }
-         $this->getLogger()->info("ShopUI By TinyPixelDevz Team!");
+         $this->getLogger()->info("ShopUI By IKRDev Team!");
      }
  
     public function onCommand(CommandSender $sender, Command $cmd, string $label,array $args) : bool {
